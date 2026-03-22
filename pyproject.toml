@@ -1,0 +1,30 @@
+[project]
+name = "jit-semantic-search"
+version = "0.1.0"
+description = "Just-in-time semantic search — semantic search on arbitrary data without pre-processing"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "fastembed>=0.4",
+    "onnxruntime>=1.16",
+    "scipy>=1.11",
+    "fastapi>=0.104",
+    "uvicorn>=0.24",
+]
+
+[project.scripts]
+jit-search = "jit_search.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-benchmark>=4.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

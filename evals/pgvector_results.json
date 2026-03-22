@@ -1,0 +1,210 @@
+{
+  "pgvector": {
+    "ndcg_10": 0.9743005329258637,
+    "mrr_10": 1.0,
+    "recall_10": 0.1925,
+    "precision_10": 0.9625,
+    "latency_p50_ms": 23.39476366372158,
+    "latency_p95_ms": 32.02895866706967,
+    "preprocess_embed_s": 2.45,
+    "preprocess_load_s": 9.31,
+    "preprocess_index_s": 0.12,
+    "preprocess_total_s": 11.88,
+    "num_documents": 400,
+    "ef_search": 100
+  },
+  "per_query": [
+    {
+      "query": "customer struggling with initial setup",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 25.66261135507375
+    },
+    {
+      "query": "user can't complete onboarding flow",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 22.62287470512092
+    },
+    {
+      "query": "new account activation problems",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 31.77904166902105
+    },
+    {
+      "query": "customer charged incorrectly",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 23.913833661936224
+    },
+    {
+      "query": "billing dispute unexpected charge",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 25.112721991414826
+    },
+    {
+      "query": "refund request for wrong amount",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 23.13965264086922
+    },
+    {
+      "query": "application running very slowly",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 21.639388985931873
+    },
+    {
+      "query": "dashboard takes forever to load",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 19.903680658899248
+    },
+    {
+      "query": "API response times are terrible",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 20.424805659179885
+    },
+    {
+      "query": "customer lost their data",
+      "ndcg_10": 0.9363792118010483,
+      "mrr": 1.0,
+      "recall_10": 0.18,
+      "precision_10": 0.9,
+      "latency_ms": 22.067888678672414
+    },
+    {
+      "query": "files disappeared from account",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 23.249208306272823
+    },
+    {
+      "query": "records deleted unexpectedly",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 19.4421667062367
+    },
+    {
+      "query": "third party integration broken",
+      "ndcg_10": 0.8701249883466593,
+      "mrr": 1.0,
+      "recall_10": 0.16,
+      "precision_10": 0.8,
+      "latency_ms": 23.973236015687387
+    },
+    {
+      "query": "API webhook not firing",
+      "ndcg_10": 0.8701249883466593,
+      "mrr": 1.0,
+      "recall_10": 0.16,
+      "precision_10": 0.8,
+      "latency_ms": 24.02134701454391
+    },
+    {
+      "query": "Slack integration stopped working",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 27.911597009127338
+    },
+    {
+      "query": "unauthorized access to account",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 24.48383365602543
+    },
+    {
+      "query": "suspicious login activity",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 32.02895866706967
+    },
+    {
+      "query": "security breach concern",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 18.96754198241979
+    },
+    {
+      "query": "requesting new functionality",
+      "ndcg_10": 0.8701249883466593,
+      "mrr": 1.0,
+      "recall_10": 0.16,
+      "precision_10": 0.8,
+      "latency_ms": 24.900194296302896
+    },
+    {
+      "query": "feature suggestion for improvement",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 35.755666942956545
+    },
+    {
+      "query": "wish list for product updates",
+      "ndcg_10": 0.8364586133797037,
+      "mrr": 1.0,
+      "recall_10": 0.16,
+      "precision_10": 0.8,
+      "latency_ms": 21.683444346611697
+    },
+    {
+      "query": "user interface display glitch",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 23.119319424343605
+    },
+    {
+      "query": "buttons not working on page",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 23.39476366372158
+    },
+    {
+      "query": "visual rendering issue in browser",
+      "ndcg_10": 1.0,
+      "mrr": 1.0,
+      "recall_10": 0.2,
+      "precision_10": 1.0,
+      "latency_ms": 22.753166694504518
+    }
+  ]
+}
