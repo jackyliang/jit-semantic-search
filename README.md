@@ -117,6 +117,22 @@ The `cascade` strategy combines three techniques:
 
 No documents are pre-embedded. No index is built. No vector store is needed.
 
+### Performance Notes
+
+The search latencies reported below are **warm-model** numbers (models already loaded in memory). On first call, expect an additional 2-5s for model loading (fastembed ONNX model + projection matrix). Models stay warm for subsequent calls.
+
+These numbers also don't include the time to fetch documents from an external API. A realistic first-call breakdown for 10K docs:
+
+| Step | Time |
+|---|---|
+| API fetch (network) | 2-5s (varies) |
+| Model cold start (one-time) | 2-5s |
+| Search | ~1s |
+| **First call total** | **~5-11s** |
+| **Subsequent calls** | **~1s** |
+
+Still significantly faster than pgvector's 6 minutes of preprocessing, but the "under 1 second" headline is the steady-state number.
+
 ## Evaluation Results
 
 Evaluated using **BEIR methodology** (NDCG@10 primary metric) on a synthetic support ticket dataset.
