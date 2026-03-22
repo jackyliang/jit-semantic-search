@@ -37,7 +37,7 @@ results = searcher.search(
 ## Installation
 
 ```bash
-uv pip install jit-semantic-search
+uv add jit-semantic-search
 ```
 
 From source:
@@ -45,7 +45,7 @@ From source:
 ```bash
 git clone https://github.com/jackyliang/jit-semantic-search.git
 cd jit-semantic-search
-uv venv && uv pip install -e .
+uv sync
 ```
 
 ## Usage
